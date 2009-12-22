@@ -1,0 +1,11 @@
+{
+  "type": "standalone",
+  "CoreletLibrary": "@ServiceLibrary@",
+  "strings": {
+    "en": {
+      "title": "Hello World",
+      "summary": "Simple service to demonstrate use of bp-service-framework."
+    }
+  }
+}
+ 
