@@ -1,6 +1,6 @@
 {
   "type": "standalone",
-  "CoreletLibrary": "@ServiceLibrary@",
+  "CoreletLibrary": "HelloWorld.dll",
   "strings": {
     "en": {
       "title": "Hello World",

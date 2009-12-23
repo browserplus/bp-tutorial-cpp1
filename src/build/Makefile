@@ -8,7 +8,7 @@
 SRVNAME= HelloWorld
 SRCS= service.cpp
 OBJS= $(SRCS:%.cpp=%.o)
-OUTLIB= libHello.so
+OUTLIB= libHelloWorld.so
 GPPCL= /usr/bin/g++-4.0
 STAGEDIR= $(SRVNAME)
 
@@ -17,7 +17,7 @@ $(OUTLIB): service.o
 	mkdir $(STAGEDIR)
 	cp $(OUTLIB) $(STAGEDIR)
 	strip -x "$(STAGEDIR)/$(OUTLIB)"
-	cp ../manifest.json $(STAGEDIR)
+	cp ../manifest_osx.json $(STAGEDIR)/manifest.json
 
 #.cpp.o:
 #	$(GPPCL) -c $(CXX_DEFINES) $(CXX_FLAGS) $< -o $@

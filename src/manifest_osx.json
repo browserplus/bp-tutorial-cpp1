@@ -1,6 +1,6 @@
 {
   "type": "standalone",
-  "CoreletLibrary": "@ServiceLibrary@",
+  "CoreletLibrary": "libHelloWorld.so",
   "strings": {
     "en": {
       "title": "Hello World",
