@@ -112,7 +112,7 @@
 			/>
 			<Tool
 				Name="VCPostBuildEventTool"
-				CommandLine="IF NOT EXIST &quot;$(ProjectDir)\HelloWorld&quot; mkdir &quot;$(ProjectDir)\HelloWorld&quot;&#x0D;&#x0A;xcopy /F /R /Y &quot;$(ProjectDir)\$(OutDir)\HelloWorld.dll&quot; &quot;$(ProjectDir)\HelloWorld&quot;&#x0D;&#x0A;xcopy /F /R /Y &quot;$(ProjectDir)\..\manifest.json&quot; &quot;$(ProjectDir)\HelloWorld&quot;"
+				CommandLine="IF NOT EXIST &quot;$(ProjectDir)\HelloWorld&quot; mkdir &quot;$(ProjectDir)\HelloWorld&quot;&#x0D;&#x0A;xcopy /F /R /Y &quot;$(ProjectDir)\$(OutDir)\HelloWorld.dll&quot; &quot;$(ProjectDir)\HelloWorld&quot;&#x0D;&#x0A;xcopy /F /R /Y &quot;$(ProjectDir)\..\manifest_windows.json&quot; &quot;$(ProjectDir)\HelloWorld&quot;&#x0D;&#x0A;ren &quot;$(ProjectDir)\HelloWorld\manifest_windows.json&quot; &quot;manifest.json&quot;"
 			/>
 		</Configuration>
 		<Configuration
@@ -210,7 +210,7 @@
 			/>
 			<Tool
 				Name="VCPostBuildEventTool"
-				CommandLine="IF NOT EXIST &quot;$(ProjectDir)\HelloWorld&quot; mkdir &quot;$(ProjectDir)\HelloWorld&quot;&#x0D;&#x0A;xcopy /F /R /Y &quot;$(ProjectDir)\$(OutDir)\HelloWorld.dll&quot; &quot;$(ProjectDir)\HelloWorld&quot;&#x0D;&#x0A;xcopy /F /R /Y &quot;$(ProjectDir)\..\manifest.json&quot; &quot;$(ProjectDir)\HelloWorld&quot;"
+				CommandLine="IF NOT EXIST &quot;$(ProjectDir)\HelloWorld&quot; mkdir &quot;$(ProjectDir)\HelloWorld&quot;&#x0D;&#x0A;xcopy /F /R /Y &quot;$(ProjectDir)\$(OutDir)\HelloWorld.dll&quot; &quot;$(ProjectDir)\HelloWorld&quot;&#x0D;&#x0A;xcopy /F /R /Y &quot;$(ProjectDir)\..\manifest_windows.json&quot; &quot;$(ProjectDir)\HelloWorld&quot;&#x0D;&#x0A;ren &quot;$(ProjectDir)\HelloWorld\manifest_windows.json&quot; &quot;manifest.json&quot;"
 			/>
 		</Configuration>
 	</Configurations>
