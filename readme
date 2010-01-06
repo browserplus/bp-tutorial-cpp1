@@ -2,4 +2,4 @@ This project demonstrates how to implement a simple BrowserPlus Service in C++
 using the BrowserPlus Service Framework.
 
 It is part of a tutorial at:
-http://browserplus.org/docs/developer/service_dev/cpp_services.html
+http://browserplus.org/docs/service_dev/cpp_services.html
